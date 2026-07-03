@@ -1,6 +1,6 @@
-Artist Portfolio Platform - Backend API
+CRTV Zone
 
-What is this App About?
+What is this CRTV Zone About?
 This project is a backend REST API designed for an Artist Portfolio and Booking platform. It serves as the core engine connecting artists with potential clients. The platform allows artists to fully showcase their professional identity by managing their skills, education, experience, achievements, and visual portfolio works. Clients can browse public portfolios, book specific artist services, securely process payments, and leave reviews. The system also includes dedicated administrative controls and a real-time notification system. 
 
 Tech Stack

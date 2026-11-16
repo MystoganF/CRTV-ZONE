@@ -13,7 +13,7 @@ import java.util.Map;
 public class HealthController {
 
     @GetMapping
-    public ResponseEntity> checkHealth() {
+    public ResponseEntity<Map<String, String>> checkHealth() {
         return ResponseEntity.ok(Map.of(
                 "status", "UP",
                 "service", "crtv-zone-backend",

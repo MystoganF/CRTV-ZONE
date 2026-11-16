@@ -76,6 +76,7 @@ public class SecurityConfig {
 
                         // 3. CLIENT ENDPOINTS (Requires CLIENT role)
                         .requestMatchers("/api/client/**").hasAuthority("CLIENT")
+                        .requestMatchers(HttpMethod.GET, "/api/health").permitAll()
 
                         // 4. PROTECT EVERYTHING ELSE
                         .anyRequest().authenticated()
